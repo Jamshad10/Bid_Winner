@@ -106,7 +106,7 @@ function Sidebar() {
                     } sm:translate-x-0`}
                 aria-label="Sidebar"
             >
-                <div className="h-full overflow-y-auto bg-gray-50">
+                <div className="h-fit overflow-y-auto bg-gray-50">
                     <ul className="space-y-2 ">
                         {navs.map((item) => {
                             return (
