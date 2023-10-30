@@ -1,5 +1,6 @@
 import Header from '../../components/admin/Header';
 import JobDetails from '../../components/admin/JobDetails';
+import ProjectTable from '../../components/admin/ProjectTable';
 import SideBar from '../../components/admin/SideBar';
 import Table from '../../components/admin/Table';
 
@@ -18,11 +19,8 @@ const Home = () => {
         </div>
         <div className='lg:px-8'>
           <div className='flex flex-col'>
-
-          <JobDetails />
-
-          <h1>sdjh</h1>
-
+            <JobDetails />
+            <ProjectTable />
           </div>
         </div>
       </div>
