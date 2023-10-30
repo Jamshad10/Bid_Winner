@@ -5,10 +5,10 @@ function JobDetails() {
     return (
         <div className='w-full my-10 px-4'>
             <div className='flex items-center justify-between'>
-                <h1 className='text-base font-bold py-2'>Job</h1>
+                <h1 className='text-base font-bold py-2 px-2'>Job</h1>
                 <div className='flex'>
                     <h2 className='text-sm text-gray-500'>Quote Status</h2>
-                    <select className="ml-2 px-2 py-1 text-xs bg-green-600 text-white rounded-full border">
+                    <select className="ml-2 px-2 py-1 text-xs bg-green-700  text-white rounded-full border ">
                         <option value="option1" className='bg-white text-gray-800'>Accepted</option>
                         <option value="option2" className='bg-white text-gray-800'>Pending</option>
                         <option value="option3" className='bg-white text-gray-800'>Rejected</option>

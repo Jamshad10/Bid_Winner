@@ -17,8 +17,8 @@ const Home = () => {
         <div>
           <Table />
         </div>
-        <div className='lg:px-8'>
-          <div className='flex flex-col'>
+        <div className='lg:px-8 lg:mx-6 lg:border-l-2'>
+          <div className='flex flex-col '>
             <JobDetails />
             <ProjectTable />
           </div>
