@@ -42,7 +42,7 @@ const TableData = [
 
 export default function ProjectTable() {
     return (
-        <div className=''>
+        <div className='px-4'>
             <div className='flex items-center justify-start space-x-1 lg:space-x-6 py-2'>
 
                 <form className='px-2 lg:px-0 py-2'>
@@ -55,7 +55,7 @@ export default function ProjectTable() {
                         <input
                             type="search"
                             id="default-search"
-                            className="block w-full px-1 lg:px-14 py-1 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 "
+                            className="block w-full px-1 lg:px-14 py-1 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white placeholder-white lg:placeholder-slate-400 "
                             placeholder="Search projects...."
                             required
                         />
@@ -98,7 +98,7 @@ export default function ProjectTable() {
                                         <th scope="col" className="px-4 py-3">SI No</th>
                                         <th scope="col" className="px-4 py-3">Assembly Name</th>
                                         <th scope="col" className="lg:pl-14 py-3">Length</th>
-                                        <th scope="col" className="lg:pl-8 py-3">Quantity</th>
+                                        <th scope="col" className="pl-6 lg:pl-8 py-3">Quantity</th>
                                         <th scope="col" className="px-6 py-3"></th>
                                     </tr>
                                 </thead>
@@ -112,8 +112,8 @@ export default function ProjectTable() {
                                                 <td className="whitespace-nowrap px-4 py-3 ">{data.id}</td>
                                                 <td className="whitespace-nowrap px-4 py-3">{data.name}</td>
                                                 <td className="whitespace-nowrap text-blue-600 lg:pl-14 py-3">{data.length}</td>
-                                                <td className="whitespace-nowrap text-blue-600 lg:pl-8 py-3">{data.quantity}</td>
-                                                <td className="whitespace-nowrap cursor-pointer lg:pl-8 lg:pr-4  py-3">
+                                                <td className="whitespace-nowrap text-blue-600 pl-6 lg:pl-8 py-3">{data.quantity}</td>
+                                                <td className="whitespace-nowrap cursor-pointe pl-4 lg:pl-8 lg:pr-4  py-3">
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
                                                         viewBox="0 0 24 24"

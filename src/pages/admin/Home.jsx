@@ -11,9 +11,9 @@ const Home = () => {
       <Header />
 
       <div className='flex flex-col lg:flex-row md:flex-row xl:flex-row'>
-        <div >
+      
           <SideBar />
-        </div>
+       
         <div>
           <Table />
         </div>

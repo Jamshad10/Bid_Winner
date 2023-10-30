@@ -16,7 +16,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Header() {
     return (
         <Disclosure as="nav" className="bg-blue-950">
             {({ open }) => (
@@ -36,16 +36,16 @@ export default function Example() {
                                 </Disclosure.Button>
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                <div className="flex flex-shrink-0 items-center mr-8 lg:mr-0 md:mr-0 xl:mr-0 text-white">
+                                <div className="flex flex-shrink-0 items-center mr-16 lg:mr-0 md:mr-0 xl:mr-0 text-white">
                                     <img
-                                        className="h-8 w-auto"
+                                        className="h-16 w-auto mr-16 lg:mr-4 mt-3"
                                         src={ADMIN_LOGO}
                                         alt="Your Company"
                                     />
-                                    <h1 className='uppercase text-white text-lg font-bold border px-1 ml-1 '>Bid Winner</h1>
+                                    <h1 className='uppercase text-white text-lg font-bold border px-1 -ml-20 lg:-ml-8'>Bid Winner</h1>
                                 </div>
                                 <div className="hidden sm:ml-6 sm:block">
-                                    <div className="flex space-x-6 ms-4">
+                                    <div className="flex space-x-6 lg:mt-4 ">
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}

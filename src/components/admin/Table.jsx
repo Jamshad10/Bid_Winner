@@ -75,7 +75,7 @@ const TableData = [
 
 export default function Table() {
     return (
-        <div className='lg:ml-32 my-6'>
+        <div className='px-4 lg:my-6 '>
             <div className='flex items-center justify-between pl-2'>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
