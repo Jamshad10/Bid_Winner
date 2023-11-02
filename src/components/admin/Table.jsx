@@ -113,7 +113,7 @@ export default function Table() {
                             <table className="min-w-full text-left text-sm font-light">
                                 <thead className="border-b font-medium text-gray-500">
                                     <tr>
-                                        <th scope="col" className="px-6 py-3">SI No</th>
+                                        <th scope="col" className="px-6 py-3 whitespace-nowrap">SI No</th>
                                         <th scope="col" className="px-4 py-3">Name</th>
                                         <th scope="col" className="lg:pl-14 py-3">Type</th>
                                         <th scope="col" className="px-6 py-3"></th>
